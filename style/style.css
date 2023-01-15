@@ -51,17 +51,17 @@ header {
 }
 /* end navber section  */
 /* start brand section  */
-.brand-section {
+.header-text {
   padding: 3vw 20vw;
   text-align: center;
 }
-.brand-title {
+.header-title {
   font-size: 4vw;
   font-weight: 700;
   color: #131313;
   padding: 2vw 0;
 }
-.brand-details {
+.header-details {
   font-size: 1.1vw;
   font-weight: 400;
   color: #727272;
@@ -89,11 +89,11 @@ header {
   transition: 0.7s;
 }
 /* trem img  */
-.three-man-img {
+.banner-img {
   padding: 2vw 10vw;
   border-radius: 8px;
 }
-.three-man-img img {
+.banner-img img {
   width: 100%;
   height: 100%;
 }
@@ -104,12 +104,12 @@ header {
  .container {
     padding: 3.5vw 10vw;
   }
-  .quick-list-left-right {
+  .quick-features {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .left-img-quick {
+  .quick-images {
     padding-left: 4vw;
   }
   .items {
@@ -124,7 +124,7 @@ header {
     width: 100%;
     height: 100%;
   }
-  .right-text-quick {
+  .quick-text {
     padding: 0 5vw;
   }
   .qick-title {
@@ -147,7 +147,7 @@ header {
 
   /* <!-- end  Quick List of our Features section  -->
     <!-- start Features you will love & enjoy--> */
-.featres-love-enjoy {
+.lovable-features {
     padding: 8vw 0 0 0;
   }
   .text-man {
@@ -400,10 +400,10 @@ header {
     }
     /* navber end  */
     /* banner start  */
-    .brand-title {
+    .header-title {
       font-size: 4.5vw;
     }
-    .brand-details {
+    .header-details {
       font-size: 2vw;
     }
     .btn {
@@ -412,7 +412,7 @@ header {
       font-weight: 700;
     }
     /* banner end  */
-    .quick-list-left-right {
+    .quick-features {
       flex-direction: column;
     }
     .item-img {
@@ -424,7 +424,7 @@ header {
       grid-template-columns: repeat(1, 1fr);
       gap: 10px;
     }
-    .right-text-quick {
+    .quick-text {
       text-align: center;
     }
     .qick-title {
@@ -492,39 +492,7 @@ header {
       font-size: 1.8vw;
       font-weight: 500;
     }
-    /* <!-- end  Some Facts section  -->
-        <!-- start  Bons part section  -->
-        <!-- start  Why Buy House Plans From Architectural Designs? section  --> */
-    .plans-designs-items {
-      flex-direction: column;
-    }
-    .plans-designs-item {
-      padding: 5vw;
-      margin: 2vw;
-    }
-    .plans-designs-sub-title {
-      font-size: 4vw;
-      font-weight: 700;
-      padding: 4vw 0;
-    }
-    .plans-designs-details {
-      font-size: 2vw;
-      font-weight: 500;
-    }
-    .new-plans-title {
-      font-size: 5vw;
-      padding-bottom: 3vw;
-      font-weight: 700;
-    }
-    .new-plans-details {
-      font-size: 2vw;
-      padding-bottom: 4vw;
-    }
-    .new-plans-images-items {
-      flex-direction: column-reverse;
-      opacity: 100%;
-    }
-    /* <!-- end  New Plans section  -->
+    /*
     <!-- start Bons part Sponspors-->
     <!-- start Our Sponspors--> */
     .sponspors-title {
