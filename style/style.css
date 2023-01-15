@@ -10,7 +10,7 @@ header {
     background: rgba(255, 144, 14, 0.1);
 }
 
-nav {
+.navbarlogo {
     display: flex;
     justify-content: space-between;
     padding: 3vw 9.48vw;
@@ -25,18 +25,17 @@ nav {
     transition: 0.7s;
 }
 
-.nav-container ul {
+.navbar ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-container ul li {
+.navbar ul li {
     list-style: none;
-    padding: 0.75vw 1.48vw;
 }
 
-.nav-container ul li a {
+.navbar ul li a {
     text-decoration: none;
     padding: 0.75vw 1.48vw;
     padding-right: 0;
@@ -46,8 +45,8 @@ nav {
 }
 
 /* hover  */
-.navber ul li a:hover,
-.logo-text:hover {
+.navbar ul li a:hover,
+.logo:hover {
   color: rgb(76, 0, 255);
 }
 /* end navber section  */
@@ -144,4 +143,422 @@ nav {
     padding: 1vw 0;
     color: #727272;
     font-size: 1vw;
+  }
+
+  /* <!-- end  Quick List of our Features section  -->
+    <!-- start Features you will love & enjoy--> */
+.featres-love-enjoy {
+    padding: 8vw 0 0 0;
+  }
+  .text-man {
+    display: flex;
+    align-items: flex-end;
+  }
+  .feature-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.5vw;
+    border-left: 0.3vw solid #ff900e;
+    padding: 0 0.8vw;
+  }
+  .feature-details {
+    padding: 1vw 18vw 2vw 0;
+    font-size: 0.9vw;
+    font-weight: 400;
+    color: #727272;
+  }
+  
+  .devices-version {
+    width: 60%;
+    margin: 1vw;
+    padding-right: 136.6;
+    padding: 2vw 10vw 2vw 2vw;
+    box-shadow: 0px 0px 10px rgb(168, 163, 163);
+  }
+  .devices-version-title {
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding: 0.6vw 0;
+    color: #131313;
+  }
+  .devices-version-details {
+    color: #727272;
+    font-size: 0.9vw;
+    font-weight: 400;
+  }
+  .right-man {
+    margin: -3vw 0 -3vw 0;
+  }
+  .man {
+    position: static;
+  }
+  .man img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .ten-year-btn {
+    position: relative;
+    bottom: 4vw;
+    left: -5vw;
+    font-size: 2vw;
+    padding: 2vw 2vw;
+    color: #ffffff;
+  }
+  .experience {
+    font-size: 1vw;
+    font-weight: 400;
+  }
+  
+  /* <!-- end  Features you will love & enjoy section  -->
+      <!-- start Some Facts-->  */
+  
+  .facts-items {
+    margin-top: 4vw;
+  }
+  .fact-title {
+    font-weight: 700;
+    font-size: 2.2vw;
+    padding: 1vw 0;
+    color: #131313;
+  }
+  .fact-details {
+    font-size: 1vw;
+    font-weight: 400;
+    color: #727272;
+    padding: 1vw 0;
+  }
+  .fact-list-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vw;
+  }
+  .fact-item {
+    border: 1px solid palevioletred;
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 20px red;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.8s;
+    position: relative;
+  }
+  .fact-item:hover {
+    background-color: palevioletred;
+    color: #ffffff;
+    transform: rotate(10deg);
+  }
+  
+  /* <!-- end  Some Facts section  -->
+  /* <!-- end  Bons part section  --> */
+  .plans-designs {
+    margin: 5vw 0;
+    text-align: center;
+  }
+  .plans-designs-title {
+    font-size: 2.5vw;
+    font-weight: 500;
+    padding: 2vw 0;
+    text-align: center;
+  }
+  .plans-designs-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3vw 0;
+    column-gap: 1vw;
+  }
+  .plans-designs-item {
+    border-radius: 8px;
+    padding: 2.5vw 1vw;
+    box-shadow: 0px 0px 10px rgba(167, 165, 165, 0.575);
+    cursor: pointer;
+    transition: 0.7s;
+  }
+  .plans-designs-item:hover {
+    box-shadow: 0px 0px 10px rgb(61, 59, 59);
+  }
+  .plans-designs-sub-title {
+    padding: 1.5vw 0;
+    font-size: 0.85vw;
+    font-weight: 700;
+  }
+  .plans-designs-details {
+    font-size: 1vw;
+    font-weight: 400;
+    padding: 0 0 1vw 0;
+  }
+  .plans-designs-item img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* <!-- end  Why Buy House Plans From Architectural Designs section  -->
+        <!-- start  New Plans section  --> */
+  
+  .new-plans {
+    padding: 2vw 0;
+  
+    text-align: center;
+  }
+  .new-plans-title {
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
+  .new-plans-details {
+    font-size: 1vw;
+    font-weight: 400;
+    padding: 1vw 0;
+  }
+  .new-plans-images-items {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vw;
+  }
+  .new-plans-img-item {
+    box-shadow: 0px 0px 10px rgb(94, 94, 94);
+    padding: 1vw 1vw;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.8s;
+    opacity: 65%;
+  }
+  .new-plans-img-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .new-plans-img-item:hover {
+    opacity: 100%;
+  }
+  <!-- start Our Sponspors-- > */ .sponspors {
+    padding: 7vw 0;
+  }
+  .sponspors-top-part {
+    text-align: center;
+  }
+  .sponspors-title {
+    font-size: 2.7vw;
+    font-weight: 700;
+    color: #131313;
+  }
+  .sponspors-details {
+    font-size: 1vw;
+    font-weight: 400;
+    color: #727272;
+    padding: 2vw 0;
+  }
+  .sponspors-logo-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vw 0;
+    align-items: center;
+  }
+  .logo-item img {
+    width: 80%;
+    height: 80%;
+  }
+  
+  /* footer section  */
+  .footer {
+    text-align: center;
+    padding: 2vw 7vw;
+    margin: 0 7vw;
+  }
+  .copyright {
+    font-size: 0.9vw;
+    padding: 1vw 3vw;
+    background: #fff4e7;
+    border-radius: 8px;
+    color: #424242;
+  }
+  
+  /* <!-- ---------------------
+        end footer section 
+      ---------------------- --> */
+  
+  /* ----------------------------------------------
+   X-Small devices (portrait phones, less than 576px)
+  ------------------------------------------------- */
+  
+  @media screen and (max-width: 576px) {
+    /* navber start  */
+    .navbar-logo,
+    .navbar ul {
+      flex-direction: column;
+    }
+    .navbar {
+      margin: 4vw 0;
+    }
+    .navbar ul {
+      align-items: center;
+      justify-content: center;
+    }
+    .navbar ul li {
+      width: 100%;
+      height: 4vw;
+      padding: 1vw 6vw;
+      text-align: center;
+    }
+    /* navber end  */
+    /* banner start  */
+    .brand-title {
+      font-size: 4.5vw;
+    }
+    .brand-details {
+      font-size: 2vw;
+    }
+    .btn {
+      padding: 2vw 4vw;
+      font-size: 2.3vw;
+      font-weight: 700;
+    }
+    /* banner end  */
+    .quick-list-left-right {
+      flex-direction: column;
+    }
+    .item-img {
+      box-shadow: 0px 0px 20px rgb(66, 49, 49);
+    }
+    /* <!-- end header section  -->
+    <!-- start Quick List of our Features --> */
+    .items {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+    }
+    .right-text-quick {
+      text-align: center;
+    }
+    .qick-title {
+      margin-top: 20px;
+      font-size: 5vw;
+    }
+    .quick-details {
+      font-size: 2vw;
+      margin-bottom: 2vw;
+    }
+    /* <!-- end  Quick List of our Features section  -->
+        <!-- start Features you will love & enjoy--> */
+    .text-man {
+      flex-direction: column-reverse;
+    }
+    .man img {
+      width: 100%;
+    }
+    .buttom {
+      width: 100%;
+      text-align: center;
+    }
+    /* <!-- end  Features you will love & enjoy section  -->
+        <!-- start Some Facts--> */
+    .fact-title {
+      font-size: 5vw;
+      font-weight: 700;
+    }
+    .fact-details {
+      font-size: 2vw;
+      font-weight: 500;
+    }
+    .feature-title {
+      font-size: 4vw;
+      padding: 20px 15px;
+    }
+  
+    .devices-version,
+    .feature-details,
+    .devices-version-details,
+    .devices-version-title {
+      width: 100%;
+      border-radius: 8px;
+      font-size: 2vw;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    .fact-list-items {
+      flex-direction: column;
+      align-items: center;
+      gap: 2vw;
+    }
+    .fact-item {
+      width: 30vw;
+      height: 30vw;
+      padding: 20px 20px;
+      box-sizing: border-box;
+    }
+    .fact-number {
+      font-size: 3vw;
+      font-weight: 700;
+      padding: 10px 0;
+    }
+    .fact-deatils {
+      font-size: 1.8vw;
+      font-weight: 500;
+    }
+    /* <!-- end  Some Facts section  -->
+        <!-- start  Bons part section  -->
+        <!-- start  Why Buy House Plans From Architectural Designs? section  --> */
+    .plans-designs-items {
+      flex-direction: column;
+    }
+    .plans-designs-item {
+      padding: 5vw;
+      margin: 2vw;
+    }
+    .plans-designs-sub-title {
+      font-size: 4vw;
+      font-weight: 700;
+      padding: 4vw 0;
+    }
+    .plans-designs-details {
+      font-size: 2vw;
+      font-weight: 500;
+    }
+    .new-plans-title {
+      font-size: 5vw;
+      padding-bottom: 3vw;
+      font-weight: 700;
+    }
+    .new-plans-details {
+      font-size: 2vw;
+      padding-bottom: 4vw;
+    }
+    .new-plans-images-items {
+      flex-direction: column-reverse;
+      opacity: 100%;
+    }
+    /* <!-- end  New Plans section  -->
+    <!-- start Bons part Sponspors-->
+    <!-- start Our Sponspors--> */
+    .sponspors-title {
+      font-size: 5vw;
+      padding: 3vw 0;
+      font-weight: 700;
+    }
+    .sponspors-details {
+      font-size: 2vw;
+      font-weight: 500;
+    }
+    .sponspors-logo-items {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .logo-item {
+      text-align: center;
+      margin: 2vw;
+    }
+    .logo-item img {
+      width: 50%;
+      opacity: 40%;
+    }
+    /* <!-- end  New Plans section  -->
+      <!-- start footer section--> */
+    .copyright {
+      font-size: 2vw;
+    }
+  
+    /* <!-- end footer section--> */
+  }
+  
+  /* ----------------------------------------------
+   Medium devices (tablets, less than 992px)
+  ------------------------------------------------- */
+  @media screen and (min-width: 577px) and (max-width: 992px) {
   }
