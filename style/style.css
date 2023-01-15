@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -51,7 +52,6 @@ header {
   color: rgb(255, 191, 0);
 }
 /*  navbar end  */
-/* start brand section  */
 .header-text {
   padding: 3vw 20vw;
   text-align: center;
@@ -77,19 +77,15 @@ header {
   font-size: 1.3vw;
   font-weight: 600;
   color: #ffff;
-  /* background: linear-gradient(45deg, bisque, bisque) padding-box,
-    linear-gradient(45deg, red, yellow, blue) border-box; */
   border-color: transparent;
 }
 .btn:hover {
-  transition: 1s;
-  color: #ff900e;
-  background-color: bisque;
-  background: linear-gradient(45deg, bisque, bisque) padding-box,
-    linear-gradient(45deg, yellow, blue, red) border-box;
+  color: #f2f6f7;
+  background-color: rgb(209, 106, 21);
   transition: 0.7s;
+  transform: scale(1.1);
 }
-/* trem img  */
+/* banner img  */
 .banner-img {
   padding: 2vw 10vw;
   border-radius: 8px;
@@ -190,11 +186,16 @@ header {
     font-size: 0.9vw;
     font-weight: 400;
   }
+
+  .devices-versions:hover {
+    transform:scale(1.1)
+  }
   .right-man {
     margin: -3vw 0 -3vw 0;
   }
   .man {
     position: static;
+    
   }
   .man img {
     width: 100%;
@@ -239,19 +240,18 @@ header {
     margin-top: 4vw;
   }
   .fact-item {
-    border: 1px solid palevioletred;
+    border: 1px solid rgb(209, 216, 112);
     text-align: center;
     padding: 20px 20px;
-    box-shadow: 0px 0px 20px red;
     cursor: pointer;
     border-radius: 8px;
     transition: 0.8s;
     position: relative;
   }
   .fact-item:hover {
-    background-color: palevioletred;
+    background-color: rgb(196, 111, 21);
     color: #ffffff;
-    transform: rotate(10deg);
+    transform:scale(1.1)
   }
   
   /* ------  *Facts (Section-3) END*  ------ */
