@@ -255,6 +255,9 @@ header {
   
   /* ------  *Facts (Section-3) END*  ------ */
 
+  /* ------  **BONUS (Section-4) START**  ------ */
+  /* ------  *Bonus (Section-4) END*  ------ */
+
   
        
   /* ------  **SPONSORS (Section-5) START**  ------ */
@@ -306,12 +309,11 @@ header {
 
   /* -----------------------  *Footer END*  --------------------------------- */
   
-  /* ----------------------------------------------
-   X-Small devices (portrait phones, less than 576px)
-  ------------------------------------------------- */
+  /* ----------------------   Responsive (max width 576px, Breakpoint: X-Small )  --------------- */
   
   @media screen and (max-width: 576px) {
-    /* navber start  */
+    /* --------------------  **HEADER START**  ----------------------------- */
+    /* navbar start  */
     .navbar-container,
     .navlist ul {
       flex-direction: column;
@@ -329,7 +331,7 @@ header {
       padding: 1vw 6vw;
       text-align: center;
     }
-    /* navber end  */
+    /* navbar end  */
     /* banner start  */
     .header-title {
       font-size: 4.5vw;
@@ -349,8 +351,9 @@ header {
     .item-img {
       box-shadow: 0px 0px 20px rgb(66, 49, 49);
     }
-    /* <!-- end header section  -->
-    <!-- start Quick List of our Features --> */
+
+    /* --------------------  *Header END*  ----------------------------- */
+    /* ------  **QUICK Features (Section-1) START**  ------ */
     .items {
       grid-template-columns: repeat(1, 1fr);
       gap: 10px;
@@ -366,8 +369,8 @@ header {
       font-size: 2vw;
       margin-bottom: 2vw;
     }
-    /* <!-- end  Quick List of our Features section  -->
-        <!-- start Features you will love & enjoy--> */
+    /* ------  *QUICK Features (Section-1) END*  ------ */
+        /* ------  **LOVABLE Features (Section-2) START**  ------ */
     .text-man {
       flex-direction: column-reverse;
     }
@@ -378,8 +381,8 @@ header {
       width: 100%;
       text-align: center;
     }
-    /* <!-- end  Features you will love & enjoy section  -->
-        <!-- start Some Facts--> */
+    /* ------  *Lovable Features (Section-2) END*  ------ */
+       /* ------  **FACTS (Section-3) START**  ------ */
     .fact-title {
       font-size: 5vw;
       font-weight: 700;
@@ -423,9 +426,14 @@ header {
       font-size: 1.8vw;
       font-weight: 500;
     }
+
+    /* ------  *Facts (Section-3) END*  ------ */
+
+    /* ------  **BONUS (Section-4) START**  ------ */
+  /* ------  *Bonus (Section-4) END*  ------ */
     /*
-    <!-- start Bons part Sponspors-->
-    <!-- start Our Sponspors--> */
+    
+    /* ------  **SPONSORS (Section-5) START**  ------ */
     .sponspors-title {
       font-size: 5vw;
       padding: 3vw 0;
@@ -447,17 +455,16 @@ header {
       width: 50%;
       opacity: 40%;
     }
-    /* <!-- end  New Plans section  -->
-      <!-- start footer section--> */
+    /* ------  *Sponsors (Section-5) END*  ------ */
+
+      /* ----------------------  **FOOTER START**  --------------------------------- */
     .footer-text {
       font-size: 2vw;
     }
   
-    /* <!-- end footer section--> */
+   /* -----------------------  *Footer END*  --------------------------------- */
   }
   
-  /* ----------------------------------------------
-   Medium devices (tablets, less than 992px)
-  ------------------------------------------------- */
+  /* ----------------------   Responsive (max width 992px, Breakpoint: Large)  --------------- */
   @media screen and (min-width: 577px) and (max-width: 992px) {
   }
