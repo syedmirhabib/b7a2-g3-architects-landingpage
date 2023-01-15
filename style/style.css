@@ -10,7 +10,7 @@ header {
     background: rgba(255, 144, 14, 0.1);
 }
 
-.navbarlogo {
+.navbar-container {
     display: flex;
     justify-content: space-between;
     padding: 3vw 9.48vw;
@@ -25,17 +25,17 @@ header {
     transition: 0.7s;
 }
 
-.navbar ul {
+.navlist ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navbar ul li {
+.navlist ul li {
     list-style: none;
 }
 
-.navbar ul li a {
+.navlist ul li a {
     text-decoration: none;
     padding: 0.75vw 1.48vw;
     padding-right: 0;
@@ -45,7 +45,7 @@ header {
 }
 
 /* hover  */
-.navbar ul li a:hover,
+.navlist ul li a:hover,
 .logo:hover {
   color: rgb(76, 0, 255);
 }
@@ -381,18 +381,18 @@ header {
   
   @media screen and (max-width: 576px) {
     /* navber start  */
-    .navbar-logo,
-    .navbar ul {
+    .navbar-container,
+    .navlist ul {
       flex-direction: column;
     }
-    .navbar {
+    .navlist {
       margin: 4vw 0;
     }
-    .navbar ul {
+    .navlist ul {
       align-items: center;
       justify-content: center;
     }
-    .navbar ul li {
+    .navlist ul li {
       width: 100%;
       height: 4vw;
       padding: 1vw 6vw;
