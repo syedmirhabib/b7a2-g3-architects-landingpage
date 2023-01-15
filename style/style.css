@@ -286,35 +286,33 @@ header {
    
 }
 
-.price-card{
+.bonus-card{
     box-shadow: 0px 6px 50px #d5d1d15d;
     border-radius: 10px;
     padding: 50px;
     transition: 1s;
 }
-.price-card:hover{
-    transform: scale(1.2);
+.bonus-card:hover{
+    transform: scale(1.1);
     cursor: pointer;
+    color:#ff900e;
+    background-color: rgb(187, 158, 127);
+    
 }
 
-.price-title{
+.bonus-title{
     color: #727272;
     font-size: 20px;
    
 }
 
-.price-value{
-    font-size: 80px;
-    margin-bottom: 10px;
-}
-
-.price-sub-title{
+.bonus-sub-title{
     color: #131313;
    padding-bottom: 5px;
 
 }
 
-.price-dis{
+.bonus-dis{
     padding-top: 5px;
     color: #727272;
 
