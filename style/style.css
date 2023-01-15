@@ -10,6 +10,7 @@ header {
     background: rgba(255, 144, 14, 0.1);
 }
 
+/*  navbar start  */
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -47,9 +48,9 @@ header {
 /* hover  */
 .navlist ul li a:hover,
 .logo:hover {
-  color: rgb(76, 0, 255);
+  color: rgb(255, 191, 0);
 }
-/* end navber section  */
+/*  navbar end  */
 /* start brand section  */
 .header-text {
   padding: 3vw 20vw;
