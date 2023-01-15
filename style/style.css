@@ -257,6 +257,68 @@ header {
   /* ------  *Facts (Section-3) END*  ------ */
 
   /* ------  **BONUS (Section-4) START**  ------ */
+  .plan-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.plan-title{
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 10px;   
+
+}
+
+
+.plan-sub-title{
+    font-size: 16px;
+    color: #727272;
+}
+
+  .pricing-list{
+    margin-top:50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap:15px ;
+    width: 100%;
+   
+}
+
+.price-card{
+    box-shadow: 0px 6px 50px #d5d1d15d;
+    border-radius: 10px;
+    padding: 50px;
+    transition: 1s;
+}
+.price-card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.price-title{
+    color: #727272;
+    font-size: 20px;
+   
+}
+
+.price-value{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.price-sub-title{
+    color: #131313;
+   padding-bottom: 5px;
+
+}
+
+.price-dis{
+    padding-top: 5px;
+    color: #727272;
+
+}
   /* ------  *Bonus (Section-4) END*  ------ */
 
   
@@ -431,6 +493,14 @@ header {
     /* ------  *Facts (Section-3) END*  ------ */
 
     /* ------  **BONUS (Section-4) START**  ------ */
+    .plan-title,  .sponsors-title, .some-facts-title{
+        font-size:30px ;
+        
+   
+     }
+ 
+     .pricing-list {
+         flex-direction: column;
   /* ------  *Bonus (Section-4) END*  ------ */
     /*
     
